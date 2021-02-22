@@ -3,6 +3,9 @@ var gameState, playerCount;
 var loginForm, game, player;
 
 function setup(){
+
+ 
+
     database = firebase.database();
 
     createCanvas(500,500)
@@ -24,7 +27,7 @@ function draw(){
     background("white");
 
     
-    drawSprites();
+    
 }
 
 

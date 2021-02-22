@@ -4,6 +4,7 @@ class Form{
     }
 
     displayForm(){
+        console.log("hi")
 
         var title = createElement('h2');
 

@@ -28,10 +28,12 @@ database.ref('/').update({
 startGame(){
     //if the state = 0, then execute this code
 if(gameState === 0){
-    player = new player();
+    player = new Player();
     player.getCount();
+    console.log("reached here")
     form = new Form();
     form.displayForm();
+    console.log("other reached here")
 }
 
 
